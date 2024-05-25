@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #94A2FF;
+}
+.logo{
+	width: 200px;
+	margin-left: 2%;
+	margin-top: -2rem;
+
+}
+h1{
+	margin-top: -2rem;
+	font-family: stencil;
+	font-size: 25px;
+	color: #3D4A64;
+
+}
+.box p{
+	margin: 10px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: justify;
+
+}
+.card{
+	background-color: #D9D9D9;
+	border-radius: 40px;
+	border-color: #7843E6;
+	width: 15rem;
+	height: 2rem; 
+	margin-left: -17rem;
+	
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.contactus{
+	margin-top: 7px;
+	text-align: center;
+	font-size: 1rem;
+	
+}
+.box{
+	width: 1270px;
+	height: 500px;
+	background-color: #E8E8E8;
+	margin-left: -500px;
+	margin-top: -19px
+
+}

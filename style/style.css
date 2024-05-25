@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Stardos+Stencil:wght@400;700&display=swap');
+
+.stardos-stencil-regular {
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stardos-stencil-bold {
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Stardos Stencil', system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h5{
+    margin: 1rem;
+    background-color: #e8e8e8;
+    border-radius: 5px; 
+    width: 18rem;
+    box-shadow: 2px 2px 4px #3d4a64;
+  
+}
+
+body {
+    background: #94A2FF;
+}
+
+label{
+
+}
+
+.login-form{
+    margin: 1rem;
+    background-color: #e8e8e8;
+    border-radius: 10px; 
+    width: 40%;
+    padding: 1rem;
+    border: 2px solid #3d4a64;
+}
+
+.body {
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: #3d4a64;
+    border: #3d4a64;
+    margin: 3rem;
+   
+}
+
+.inputs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.form {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+
+}
+
+label {
+    display: flex;
+    justify-content: left;
+}
+
+button {
+    background-color: #3d4a64;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.menu{
+    margin: 1rem;
+    background-color: #e8e8e8;
+    border-radius: 10px; 
+    width: 40%;
+    padding: 1rem;
+    border: 2px solid #3d4a64;
+}
+
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: #3d4a64; /* Inherits color from parent (usually black) */
+}
+
+.menu-bttn{
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #3d4a64; /* Add proper box-shadow values */
+    transition: background-color 0.3s ease;
+}
+
+.menu-bttn:hover {
+    background-color: #94A2FF; /* Change background color on hover */
+}
+
+.buttons-left{
+    display: flex;
+    justify-content:end;
+}
+
+.back{
+    margin: 10px -10px 0px 20px;
+}
+.nav{
+    display: flex;
+    justify-content: left;
+}

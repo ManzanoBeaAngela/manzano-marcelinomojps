@@ -1,0 +1,272 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #94a2ff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.logo{
+    margin-top: -2rem;
+    margin-left: 2rem;
+}
+.logos{
+    max-width: 3rem;
+    width:auto;
+}
+
+
+.btn-container{
+    margin: 2rem;
+}
+.signup-btn, .login-btn,.mainBtn-container button,
+.input-container button {
+    padding: .5rem 1rem;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
+
+.signup-btn,
+.mainBtn-container button,
+.input-container button,
+.login-btn,
+.signup-btn:hover,
+.input-container input{
+    border: none;
+}
+.login-btn
+{
+    background-color: #ffff;
+    color: #3d4a64;
+}
+.login-btn:hover,
+.signup-btn,
+.mainBtn-container button,
+.input-container button{
+    background-color: #3d4a64;
+    
+}
+.input-container button:hover,
+.mainBtn-container button:hover,
+.signup-btn:hover{
+    background-color: #38445a;
+}
+main,.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+    flex-wrap: wrap ;
+}
+.bottom-container{
+    margin-top: 3rem;
+}
+main h1{
+    font-size: 78px;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+}
+main h1,
+.login-btn a:hover,
+.left-container h4,
+.right-container a,
+.input-container button,
+.mainBtn-container button,
+.signup-btn{
+    color: #ffff;
+}
+.mainBtn-container button,
+.right-container{
+    display: block;
+    margin-bottom: 1rem;
+   
+
+}
+.mainBtn-container {
+    margin: 2rem;
+}
+.left-container h4{
+    font-size: 30px;
+}
+.input-container input{
+    padding: .7rem;
+    width: 350px;
+    border-radius: 4px;
+}
+.right-container a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.right-container a,
+.left-container h4,
+button,
+.input-container input{
+    font-family: "Poppins", sans-serif;
+}
+.right-container a:hover{
+    color: #ebebeb;
+}
+.mainBtn-container button{
+    width: 6.7rem;
+}
+.fa-circle-down{
+    font-size: 25px;
+}
+.second-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.two{
+    margin: 8rem;
+}
+.future,
+.menu-btn:hover{
+    color: #3d4a64;
+}
+.menu-btn{
+    color: #ffff;
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+    
+}
+.card{
+   background-color: #3d4a64;
+   color: #ffff;
+   width: 10rem;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.admin-header{
+    font-family:"Stardos Stencil", system-ui;
+    font-weight: 800;
+}
+.btn-icon{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none; /* Removes underline */
+    color: #3d4a64; /* Inherits color from parent (usually black) */
+}
+
+.signup-btn a{
+    color: #ffff;
+}
+.notif-menu{
+    margin: 1rem;
+    background-color: #e8e8e8;
+    border-radius: 10px; 
+    width: 70%;
+    padding: 1rem;
+    border: 2px solid #3d4a64;
+}
+.data-menu{
+    margin: 1rem;
+    background-color: #e8e8e8;
+    border-radius: 10px; 
+    width: 70%;
+    padding: 1rem;
+    border: 2px solid #3d4a64;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: justify;
+}
+
+.notif-item{
+    background-color: #ffff;
+    border-radius: 20px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.notif-p{
+    max-width: 70%;
+}
+
+.faq-p{
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: start;
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+.left-p{
+    display: block;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: start;
+    padding: 0px;
+}
+
+/* add */
+
+
+.application{
+    background-color: #ff914d;
+}
+.hired{
+    background-color: #ffbd59;
+}
+.visibility{
+    background-color: #7ed957;
+}
+.job-btn{
+    background-color:#3d4a64;
+    color: #ffff;
+}
+.quali-container{
+    background-color: #3d5a98;
+    color: #ffff;
+}
+.form-container{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: .8rem;
+    border-bottom: 1px solid #c7c7c7;
+}
+.job-container{
+    background-color: #e8e8e8;
+}
+.link{
+    border: 4px solid #7843e6;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+.active{
+    text-decoration: none;
+    font-weight: bold;
+}
+.active:hover{
+    border: 4px solid #7843e6;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+.search-container input{
+    width: 25rem;
+    padding: .5rem;
+    border: none;
+}
+
+
+
+
+
